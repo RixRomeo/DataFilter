@@ -1,0 +1,21 @@
+
+
+{
+    "mqtt": {
+        "broker_address": "a3hrlwn2ftj58n-ats.iot.eu-west-1.amazonaws.com",
+        "port": 8883,
+        "id": "unipa",
+        "ca_cert": "AmazonRootCA1 (7).pem",
+        "certfile": "10749aad8403a223c16e6bcda0afe2bcdc0fe7f9c2f06b695950faa32deed71b-certificate.pem.crt",
+        "keyfile": "10749aad8403a223c16e6bcda0afe2bcdc0fe7f9c2f06b695950faa32deed71b-private.pem.key",
+        "topic": ["aircare/17120017-00-23/002-000492/notification"]
+    },
+    "mongodb": {
+        "host": "localhost",
+        "port": 27017,
+        "database": "database",
+        "collection": "collection"
+    }
+}
+
+
